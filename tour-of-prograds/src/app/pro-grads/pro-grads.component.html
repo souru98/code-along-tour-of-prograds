@@ -1,0 +1,9 @@
+<h2>My ProGrads</h2>
+<ul class="prograds">
+    <li *ngFor="let prograd of prograds" [class.selected]="prograd === selectedPrograd" (click)="onSelect(prograd)">
+        <span class="badge">{{prograd.id}} </span> {{prograd.name}}
+    </li>
+
+</ul>
+
+<app-prograd-detail [prograd]="selectedPrograd"></app-prograd-detail>

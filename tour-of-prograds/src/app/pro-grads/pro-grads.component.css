@@ -1,0 +1,48 @@
+.prograds {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+}
+
+.prograds li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: aqua;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+}
+
+.prograds li:hover {
+    color: lightgray;
+    background-color: lightskyblue;
+    color: black;
+}
+
+.prograds li.selected {
+    background-color: darkblue;
+    color: white;
+}
+
+.prograds li.selected:hover {
+    background-color: powderblue;
+    color: black;
+}
+
+.prograds.badge {
+    display: inline-block;
+    font-size: small;
+    color: black;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: lightgray;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: 0.8em;
+    border-radius: 4px 0 0 4px;
+}
